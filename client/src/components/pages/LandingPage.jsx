@@ -1,4 +1,5 @@
 import MainHeader from "../headers/MainHeader";
+import LandingImage from "../../assets/images/landing_page_logo.png"
 
 const LandingPage = () => {
     return (
@@ -13,17 +14,25 @@ const LandingPage = () => {
 
                     <p className="text-gray-500 mt-[24px]"
                     >
-                        Stay focused, organized, and in control of your day. Our to-do list helps 
-                        you turn your ideas into clear, actionable tasks so nothing slips through the cracks. 
-                        Whether you're planning your work, managing personal goals, or tracking daily habits, 
+                        Stay focused, organized, and in control of your day. Our to-do list helps
+                        you turn your ideas into clear, actionable tasks so nothing slips through the cracks.
+                        Whether you're planning your work, managing personal goals, or tracking daily habits,
                         everything you need is in one simple place.
                     </p>
                 </div>
 
-                
+                <div>
+                    <img
+                        className="w-[2000px]"
+                        src={LandingImage}
+                        alt="LandingImage"
+                    >
+                    </img>
+                </div>
+
             </div>
         </>
     );
-} 
+}
 
 export default LandingPage;
