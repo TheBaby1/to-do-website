@@ -1,5 +1,6 @@
 import MainHeader from "../headers/MainHeader";
 import LandingImage from "../../assets/images/landing_page_logo.png"
+import LandingImageLogo from "../../assets/images/landing_logo.jpg"
 
 const LandingPage = () => {
     return (
@@ -21,10 +22,10 @@ const LandingPage = () => {
                     </p>
                 </div>
 
-                <div>
+                <div className="flex items-center justify-center">
                     <img
-                        className="w-[2000px]"
-                        src={LandingImage}
+                        className="w-full max-2-[600px] h-auto object-cover"
+                        src={LandingImageLogo}
                         alt="LandingImage"
                     >
                     </img>
